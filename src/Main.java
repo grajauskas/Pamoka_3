@@ -20,7 +20,7 @@ public class Main {
 
 
         Student studentas3 = new Student("Algis", "Ramanauskas", 54);
-        Student studentas4 = new Student("mindaugas", "Krasauskas", 25);
+        Student studentas4 = new Student("Mindaugas", "Krasauskas", 25);
 
         ArrayList<Student> students = new ArrayList<>();
         students.add(studentas);
@@ -34,9 +34,11 @@ public class Main {
 
             for (int a = 0; a < student.grades.size(); a++) {
                 int grade = student.grades.get(a);
-                System.out.println(" pazymiai:" + grade + ".");
+
+                System.out.format(" pazymiai: " + grade + ".");
 
             }
+            System.out.println("");
         }
 
 
